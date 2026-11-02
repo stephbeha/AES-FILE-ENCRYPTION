@@ -116,11 +116,3 @@ be copied as text.
 - The file format stores a version marker, salt, nonce, and encrypted data.
 - If the password is wrong or the file was changed, authentication fails.
 
-## Presentation plan (15 minutes)
-
-1. 0–2 min: Explain symmetric encryption and AES block/key sizes.
-2. 2–6 min: Explain the four transformations and show `aes_core.py`.
-3. 6–8 min: Run the known test vector and round-trip test.
-4. 8–11 min: Change one plaintext bit and one key bit; discuss avalanche effect.
-5. 11–14 min: Encrypt a sample file, then decrypt it.
-6. 14–15 min: Explain limitations and why AES-GCM is used in the practical app.
